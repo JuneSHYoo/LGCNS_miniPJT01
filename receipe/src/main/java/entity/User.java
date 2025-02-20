@@ -47,6 +47,11 @@ public class User {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt = new Date();
 
+    public boolean isAdmin() {
+        return this.role == UserRole.ADMIN;
+    }
 }
+
+
 
 
