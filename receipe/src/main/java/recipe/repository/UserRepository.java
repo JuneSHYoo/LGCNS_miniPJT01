@@ -1,10 +1,10 @@
-package repository;
+package recipe.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import entity.User;
+import recipe.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	Optional<User> findById(Long userId);

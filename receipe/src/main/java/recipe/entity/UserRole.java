@@ -1,4 +1,4 @@
-package entity;
+package recipe.entity;
 
 public enum UserRole {
 	USER,

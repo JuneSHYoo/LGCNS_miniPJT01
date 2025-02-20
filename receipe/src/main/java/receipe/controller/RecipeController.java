@@ -1,4 +1,4 @@
-package controller;
+package receipe.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Recipe;
-import entity.User;
-import service.RecipeService;
-import service.UserService;
+import recipe.entity.Recipe;
+import recipe.entity.User;
+import recipe.service.RecipeService;
+import recipe.service.UserService;
 
 @RestController
 @RequestMapping("/api/recipes")

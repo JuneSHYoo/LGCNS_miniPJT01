@@ -1,7 +1,7 @@
-package service;
+package recipe.service;
 
-import entity.User;
-import repository.UserRepository;
+import recipe.entity.User;
+import recipe.repository.UserRepository;
 
 public class UserService {
 	private final UserRepository userRepository;

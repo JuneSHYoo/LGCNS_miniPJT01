@@ -1,9 +1,9 @@
-package service;
+package recipe.service;
 
 import java.util.List;
 
-import entity.Recipe;
-import entity.User;
+import recipe.entity.Recipe;
+import recipe.entity.User;
 
 public interface RecipeService {	
 	Recipe saveRecipe(Recipe recipe);
